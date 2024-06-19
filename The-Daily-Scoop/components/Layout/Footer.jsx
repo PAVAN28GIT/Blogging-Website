@@ -19,7 +19,7 @@ const Footer = () => {
 
             <div className="vishal lg:px-24 space-y-5 lg:w-1/2">
               <h3 className='font-Dancing-script text-7xl'>Pavan Kumar K</h3>
-              <p className='text-xl font-jost'>I'm  a manga addict who codes between sets at the gym, occasionally pausing to ponder if anime characters would make good programmers too.</p>
+              <p className='text-xl font-jost'>I&apos;m  a manga addict who codes between sets at the gym, occasionally pausing to ponder if anime characters would make good programmers too.</p>
             </div>
 
             <div className="projects space-y-6 lg:pl-12 lg:w-1/2">
