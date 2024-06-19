@@ -1,4 +1,4 @@
-const API_URL = "https://blogging-website-dk2e.onrender.com";
+const API_URL = "https://blogging-website-4lrd.onrender.com";
 
 module.exports = {
   API_URL,
