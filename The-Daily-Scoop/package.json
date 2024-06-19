@@ -1,0 +1,52 @@
+{
+  "name": "techagencyblog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@next/font": "13.1.1",
+    "dotenv": "^16.0.3",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "express": "^4.18.2",
+    "framer-motion": "^10.10.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^6.8.3",
+    "multer": "^1.4.5-lts.1",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-scroll": "^1.8.9",
+    "react-top-loading-bar": "^2.3.1",
+    "swiper": "^9.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalchaurasia10/BlogSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalchaurasia10/BlogSite/issues"
+  },
+  "homepage": "https://github.com/vishalchaurasia10/BlogSite#readme"
+}

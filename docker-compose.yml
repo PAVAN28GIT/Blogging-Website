@@ -1,0 +1,20 @@
+version: '3'
+services:
+  frontend:
+    image: pavan28/blog-page-frontend
+    ports:
+      - "3000:3000"
+    environment:
+    - API_URL=https://blogging-website-dk2e.onrender.com
+    depends_on:
+      - backend
+
+  backend:
+    image: pavan28/blog-page-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URI_DEV=mongodb+srv://pavan:bjwkvmoM88f34B6h@cluster0.hjmtfo3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - PORT=8000
+    env_file:
+      - ./The-Daily-Scoop-Backend/config.env
