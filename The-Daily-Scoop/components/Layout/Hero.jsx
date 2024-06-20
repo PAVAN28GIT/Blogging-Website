@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
-import Image from 'next/image';
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+
 const Hero = () => {
   return (
     <>
@@ -13,22 +13,8 @@ const Hero = () => {
         transition={{ duration: 0.7 }}
         className="bg-center bg-cover bg-no-repeat bg-[url('/Onepiece-hero.jpg')] py-11 lg:py-0 lg:h-screen transition-all duration-1000 w-full flex flex-col items-center justify-center"
       >
-        {/* Commented out profile image */}
-        {/* <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.2 }}
-          className="profile lg:w-[20%] pt-10 pb-10 lg:pb-0 lg:pt-0 lg:h-full order-1 flex justify-center items-center mt-[-180px] lg:mt-[-250px]"
-        >
-          <Image
-            className="w-60 lg:w-72 hover:scale-110 shadow-2xl shadow-black rounded-full transition-all duration-1000"
-            src="/github-pp.png"
-            width={500}
-            height={500}
-            alt="profile"
-            title="Web wizard crafting innovative solutions with full-stack expertise"
-          />
-        </motion.div> */}
+        {/* Empty div to maintain layout on mobile */}
+        <div className="block lg:hidden h-[600px]"></div>
 
         {/* Main text section */}
         <motion.div
@@ -54,4 +40,5 @@ const Hero = () => {
   );
 };
 
-export default Hero
+export default Hero;
+
